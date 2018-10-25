@@ -1827,8 +1827,8 @@ input, select, textarea {
 					background-color: #3C5A98;
 				}
 
-				ul.social li a.fa-dribbble {
-					background-color: #C4376B;
+				ul.social li a.fa-medium {
+					background-color: #00AB6B;
 				}
 
 				ul.social li a.fa-linkedin {
@@ -1967,6 +1967,18 @@ input, select, textarea {
 		}
 
 			.icon.featured:before {
+				font-size: 6em;
+			}
+
+		.skill {
+			color: #EA8A95;
+			display: grid;
+			margin: 0 0 1.5em 0;
+			cursor: default;
+			font-size: 10em;
+		}
+
+			.skill:before {
 				font-size: 6em;
 			}
 
