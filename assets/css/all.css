@@ -4461,4 +4461,6 @@ readers do not read off random characters that represent icons */
 .fas {
   color: #EA8A95;
   font-family: 'Font Awesome 5 Free';
-  font-weight: 900; }
+  font-weight: 900;
+  font-size: 6em;
+  margin-bottom: 0.3em; }
