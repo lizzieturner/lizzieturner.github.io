@@ -100,11 +100,12 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Open Sans', sans-serif;
 		line-height: 1.85em;
-		color: #888;
+		color: #6F6F6F;
 		font-weight: 300;
 		font-size: 13pt;
 	}
 
+	/* LINK FORMATTING */
 	a {
 		-moz-transition: color .2s ease-in-out;
 		-webkit-transition: color .2s ease-in-out;
@@ -115,7 +116,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #43bff0 !important;
+			color: #43bff0 !important; 
 		}
 
 		a img {
@@ -1686,7 +1687,7 @@ input, select, textarea {
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #43B3E0;
+		background-color: #D33F4A;
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
 		max-width: 24em;
@@ -1697,7 +1698,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #43bff0;
+		background-color: #D33F4A;
 			color: #fff !important;
 		}
 
@@ -1706,7 +1707,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #3BA8D3;
+			background-color: #D33F4A;
 			top: 1px;
 		}
 
@@ -1917,7 +1918,8 @@ input, select, textarea {
 		}
 
 		.icon.featured {
-			color: #EA8A95;
+			/* color: #EA8A95; */
+			color: #DE6F77;
 			display: block;
 			margin: 0 0 1.5em 0;
 			cursor: default;
@@ -1948,18 +1950,24 @@ input, select, textarea {
 		text-align: center;
 	}
 
+
 		.wrapper.style1 {
 			background-image: none;
-			background-color: #fff;
+			background-color: #fafafa;
+		}
+
+		.wrapper.style1 {
+			background-color: #ededed;
+			text-shadow: 1px 1px 0px #fff;
 		}
 
 		.wrapper.style2 {
-			background-color: #fafafa;
+			background-color: #e1e1e1;
 			text-shadow: 1px 1px 0px #fff;
 		}
 
 		.wrapper.style3 {
-			background-color: #f4f4f4;
+			background-color: #d4d4d4;
 			text-shadow: 1px 1px 0px #fff;
 		}
 
